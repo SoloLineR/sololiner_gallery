@@ -1,5 +1,5 @@
 import { drizzle } from "drizzle-orm/vercel-postgres";
-import { sql } from "../../../node_modules/@vercel/postgres/dist";
+import { sql } from "@vercel/postgres";
 import {
   pgTable,
   serial,
