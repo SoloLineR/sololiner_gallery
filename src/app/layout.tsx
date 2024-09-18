@@ -4,7 +4,7 @@ import "@uploadthing/react/styles.css";
 import { ClerkProvider } from "@clerk/nextjs";
 import { GeistSans } from "geist/font/sans";
 import { type Metadata } from "next";
-import TopNav from "~/_components/TopNav";
+import TopNav from "~/app/_components/TopNav";
 import { NextSSRPlugin } from "@uploadthing/react/next-ssr-plugin";
 import { ourFileRouter } from "./api/uploadthing/core";
 import { extractRouterConfig } from "uploadthing/server";
