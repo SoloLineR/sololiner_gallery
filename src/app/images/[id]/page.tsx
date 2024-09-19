@@ -1,4 +1,4 @@
-import FullPageImg from "~/app/components/full-image-page";
+import FullPageImg from "~/components/full-image-page";
 
 export default function ImagePage({ params }: { params: { id: string } }) {
   const idAsNumber = Number(params.id);

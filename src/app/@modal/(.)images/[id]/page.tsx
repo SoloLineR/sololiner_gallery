@@ -1,5 +1,5 @@
 import { Modal } from "~/app/_components/Modal";
-import FullPageImg from "~/app/components/full-image-page";
+import FullPageImg from "~/components/full-image-page";
 
 export default function ImageModal({ params }: { params: { id: string } }) {
   const idAsNumber = Number(params.id);
